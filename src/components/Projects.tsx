@@ -14,7 +14,7 @@ const Projects = () => {
         "Règles automatiques d'activation/désactivation",
         "Pilotage du processus Agile"
       ],
-      //image: "/project-msafe.png" // Tu ajouteras l'image plus tard
+      image: "smartplug.jpg" // Tu ajouteras l'image plus tard
     },
     {
       title: "Application Mobile de Sécurité",
@@ -28,7 +28,7 @@ const Projects = () => {
         "Détection et signalement d'incidents",
         "Collaboration en équipe Agile (Scrum)"
       ],
-      //image: "/project-cap.png"
+      image: "haven.png"
     },
     
     {  
@@ -46,7 +46,7 @@ const Projects = () => {
       "Tests E2E avec Cypress et rapports de couverture Istanbul/NYC",
       "Interface responsive avec Quasar Framework"
     ],
-    //image: "/project-tsr.png"
+    image: "tsr.png"
   }
 ]
   return (
@@ -57,7 +57,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div key={index} className="project-card">
               <div className="project-image">
-               #<img src={project.image} alt={project.title} />
+               <img src={project.image} alt={project.title} />
               </div>
               <div className="project-content">
                 <div className="project-header">
