@@ -55,7 +55,7 @@ const Contact = () => {
       </div>
       
       <footer className="footer">
-        <p>© 2024 Bhargavi RAMANADANE - Portfolio</p>
+        <p>© 2025 Bhargavi RAMANADANE - Portfolio</p>
       </footer>
     </section>
   )

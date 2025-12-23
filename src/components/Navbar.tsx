@@ -7,6 +7,7 @@ const Navbar = () => {
   const menuItems = [
     { title: 'Accueil', href: '#hero' },
     { title: 'À propos', href: '#about' },
+    { title: 'Expériences', href: '#experience' },
     { title: 'Projets', href: '#projects' },
     { title: 'Compétences', href: '#skills' },
     { title: 'Contact', href: '#contact' }

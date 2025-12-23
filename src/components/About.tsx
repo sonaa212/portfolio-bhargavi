@@ -28,7 +28,7 @@ const About = () => {
             </div>
             <div className="info-item">
               <h3>🎓 Formation</h3>
-              <p>ESIEA - 4ème année</p>
+              <p>ESIEA - 4ème année Software Engineering</p>
             </div>
             <div className="info-item">
               <h3>💼 Stage recherché</h3>

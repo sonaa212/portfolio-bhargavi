@@ -3,7 +3,7 @@ import { ExternalLink, Github } from 'lucide-react'
 const Projects = () => {
   const projects = [
     {
-      title: "MSafe - Prise Connectée",
+      title: "Application Mobile de Contrôle de Prise Connectée",
       period: "Juillet - Septembre 2025",
       company: "MSafe, Amsterdam",
       description: "Application Android en Kotlin pour le pilotage à distance d'une prise connectée avec communication Bluetooth ESP32.",
@@ -57,7 +57,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div key={index} className="project-card">
               <div className="project-image">
-                <img src={project.image} alt={project.title} />
+               #<img src={project.image} alt={project.title} />
               </div>
               <div className="project-content">
                 <div className="project-header">
