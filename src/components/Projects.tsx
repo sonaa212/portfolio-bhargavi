@@ -30,22 +30,25 @@ const Projects = () => {
       ],
       image: "/project-cap.png"
     },
-    {
-      title: "Application Mobile de Recettes",
-      period: "Projet académique",
-      company: "ESIEA",
-      description: "Application de recherche de recettes avec gestion des favoris et planning de repas.",
-      technologies: ["Kotlin", "Android Studio", "Firebase", "Spoonacular API"],
-      achievements: [
-        "Intégration de l'API Spoonacular",
-        "Système de favoris avec Firebase",
-        "Gestion du planning repas",
-        "Authentification utilisateur (Firebase Auth)"
-      ],
-      image: "/project-recipe.png"
-    }
-  ]
-
+    
+    {  
+    title: "TSR - Plateforme d'Inscription Étudiante",
+    period: "Novembre - Décembre 2024",
+    company: "Full-Stack Development - ESIEA",
+    description: "Refonte complète de la plateforme d'inscription de l'école avec frontend Vue.js/Quasar et backend Supabase, incluant authentification, chat temps réel et gestion de documents.",
+    technologies: ["Vue 3", "Quasar", "Pinia", "Supabase", "PostgreSQL", "Cypress", "Pug"],
+    achievements: [
+      "Architecture fullstack avec Vue 3 Composition API et Supabase",
+      "Système d'authentification multi-rôles (Étudiant/Admin)",
+      "Chat temps réel Student-Admin avec Supabase Realtime API",
+      "Gestion de formulaires complexes (coordonnées, tuteurs, documents)",
+      "Synchronisation frontend (IndexedDB) et backend (PostgreSQL)",
+      "Tests E2E avec Cypress et rapports de couverture Istanbul/NYC",
+      "Interface responsive avec Quasar Framework"
+    ],
+    image: "/project-tsr.png"
+  }
+]
   return (
     <section id="projects" className="projects">
       <div className="container">

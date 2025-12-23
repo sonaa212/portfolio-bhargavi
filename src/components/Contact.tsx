@@ -36,11 +36,7 @@ const Contact = () => {
                 <MapPin size={24} />
                 <span>Maurepas, 78310, France</span>
               </div>
-              <a href="https://github.com/votre-username" target="_blank" rel="noopener noreferrer" className="contact-item">
-                <Github size={24} />
-                <span>GitHub</span>
-              </a>
-              <a href="https://linkedin.com/in/votre-profil" target="_blank" rel="noopener noreferrer" className="contact-item">
+              <a href="https://www.linkedin.com/in/bhargavi-ramanadane/" target="_blank" rel="noopener noreferrer" className="contact-item">
                 <Linkedin size={24} />
                 <span>LinkedIn</span>
               </a>

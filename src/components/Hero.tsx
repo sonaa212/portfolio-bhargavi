@@ -2,8 +2,14 @@ import { ArrowDown } from 'lucide-react'
 
 const Hero = () => {
   return (
-    <section id="hero" className="hero">
+       <section id="hero" className="hero">
       <div className="hero-content">
+        {/* Photo de profil */}
+        <div className="hero-photo">
+          <img src="photo_Bhargavi.png" alt="Bhargavi RAMANADANE" />
+        </div>
+
+
         <div className="hero-text">
           <h1 className="hero-title">
             Bhargavi RAMANADANE
@@ -24,9 +30,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <a href="#about" className="scroll-indicator">
-        <ArrowDown size={32} />
-      </a>
+
     </section>
   )
 }
