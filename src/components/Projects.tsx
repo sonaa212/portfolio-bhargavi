@@ -1,4 +1,3 @@
-import { ExternalLink, Github } from 'lucide-react'
 
 const Projects = () => {
   const projects = [
